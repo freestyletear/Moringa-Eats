@@ -1,6 +1,6 @@
 <h1 align=center >Moringa Eats</h1>
 
-<p align=center >This is an example of a walkthrough/ company portfolio , 26 July 2021</p>
+<p align=center >This is an example creation of product and service delivery strategy, 26 July 2021</p>
 
 ---
 
@@ -50,8 +50,8 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Setup/Installation Requirements
 * Clone this repo to your machine 
-* `git clone https://github.com/freestyletear/Moringa_Eats_Web_Application.git`
-* `cd into akan_name_generator`
+* `git clone https://github.com/freestyletear/Moringa_Eats_Web_Application`
+* `cd into Moringa_Eats_Web_Application`
 * Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
 
@@ -64,7 +64,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## Sources
 
-- 👨‍💻<p align="left"> <img width="800" height="500" src="" alt="Image showcasing Keith James' Delani studio site landing page" /> </p>
+- 👨‍💻<p align="left"> <img width="800" height="500" src="" alt="Image showcasing Keith James' Moringa eats portion of the site landing page" /> </p>
 
 
 ---
