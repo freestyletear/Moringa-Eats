@@ -4,11 +4,11 @@
 
 ---
 
-<p align="center"> <img width="800" height="500" src="" alt="Image showcasing Mosinga School Logo" /> </p>
+<p align="center"> <img width="800" height="500" src="https://raw.githubusercontent.com/freestyletear/Moringa_Eats_Web_Application/master/images/download.png" alt="Image showcasing Mosinga School Logo" /> </p>
 
 <p align=center >EATS</p>
 
-<p align="center"> <img width="800" height="500" src="" alt="Image showcasing a Pizza" /> </p>
+<p align="center"> <img width="800" height="500" src="https://github.com/freestyletear/Moringa_Eats_Web_Application/blob/master/images/logoImage.png" alt="Image showcasing a Pizza" /> </p>
 
 
 
@@ -20,9 +20,7 @@
 ---
 
 ## Description
-This is the re-creation of a web application-landing page of a site known as Delani Studio whereby a user is guided through details about the services it offers.
-
-Has information about the studio, a portfolio section and a form that the user can use to reach-out to Delani Studios.
+A web application for my pizza place which will help widen my customer base as well as help my customers order different sizes of pizzas with one or more toppings.
 
 ---
 
@@ -41,7 +39,7 @@ Has information about the studio, a portfolio section and a form that the user c
 
 To fix a bug or enhance an existing module, follow these steps:
 
-- Fork the repo reach out to (https://github.com/freestyletear/Keith-_James_Delani_Studio/fork)
+- Fork the repo reach out to (https://github.com/freestyletear/Moringa_Eats_Web_Application/fork)
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
@@ -52,7 +50,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Setup/Installation Requirements
 * Clone this repo to your machine 
-* `git clone https://github.com/freestyletear/Keith-_James_Delani_Studio.git`
+* `git clone https://github.com/freestyletear/Moringa_Eats_Web_Application.git`
 * `cd into akan_name_generator`
 * Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
@@ -60,7 +58,7 @@ Your browser must be JavaScript enabled for this to work
 ---
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/freestyletear/Keith-_James_Delani_Studio/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/freestyletear/Moringa_Eats_Web_Application/issues/new) by including your search query and the expected result.
 
 ---
 
@@ -89,6 +87,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 This project is licensed under the terms of the **MIT** license.
 
 
-[link-1]: https://github.com/freestyletear/Keith_James_Akan_Name_Generator/blob/master/LICENCE
+[link-1]: https://raw.githubusercontent.com/freestyletear/Moringa_Eats_Web_Application/master/LICENSE
 
 ---
