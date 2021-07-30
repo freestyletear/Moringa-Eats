@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class="generalContainer">
+
         <!-- Beginning of Navigation Bar -->
         <div class="topNav">
             <div class="topNavSubContainer">
@@ -27,14 +28,12 @@
                          <img src="/images/logoImage.png" alt="logo">
                     </div>
                 </div>
-               
                 <div class="contactUs">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <p>(+254) 712 293 873</p>
                 </div>
             </div>
         </div>
-    </div>
         <!-- End of Navigation Bar -->
 
          <!-- FORM OUTPUT -->
@@ -106,6 +105,87 @@
                 </div>
             </div>
         </div>
+
+        <!-- CUSTOMIZE ORDER -->
+        <div class="customizedOrders">
+            <div class="ordersContainer">
+               
+                <div class="inputCollector">
+                    <form action="submit">
+                        <div>
+                            <h2>State Your Order</h2>
+                        </div>
+                        <div>
+                            <label for="type  of pizza">Which type of pizza will you have?</label>
+                            <select name="pizzaTypes" id="pizzaTypes" required>
+                                <option value="default">Select an item</option>
+                                <option value="Neapolitan Pizza"> Neapolitan Pizza</option>
+                                <option value="Chicago Pizza">Chicago Pizza</option>
+                                <option value="Greek Pizza">Greek Pizza</option>
+                                <option value="Kenyan Pizza">Kenyan Pizza</option>
+                                <option value="Kakamega Pizza">Kakamega Pizza</option>
+                                <option value="Nairobi Pizza">Nairobi Pizza</option>
+                                <option value="African Pizza">African Pizza</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="size">What size?</label>
+                            <select name="pizzaTypes" id="pizzaSize" required>
+                                <option value="default">Select an item</option>
+                                <option value="small">Small</option>
+                                <option value="medium"> Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="crust">Which type of crust will you have?</label>
+                            <select name="pizzaTypes" id="crust" required>
+                                <option value="default">Select an item</option>
+                                <option value="crispy">Crispy</option>
+                                <option value="stuffed"> Stuffed</option>
+                                <option value="glutten_free">Glutten free</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="toppings">Which group of toppings will you have?</label>
+                            <select name="pizzaTypes" id="toppings" required>
+                                <option value="default">Select an item</option>
+                                <option value="potato_sausage_bacon">Potato, sausage, bacon</option>
+                                <option value="black_olives_anchovies_capers"> Black olives, anchovies, capers</option>
+                                <option value="mixed_sliced_mushrooms_and_garlic">Mixed sliced mushrooms and garlic</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="numberOfPizzas">How many will you have?</label>
+                            <input type="number" min="1" id="pizzaNumberTotal" value = "1">
+                        </div>
+                        <div>
+                            <label for="delivery">Would you like us to deliver to your location?</label>
+                            <div class="deliveryOption">
+                                <input type="radio" name="delivery" id="radioDelivery" >
+                                <p>Yes (Delivered at a cost of KSh. 100)</p>
+                            </div>
+                            <div id="locationDetails">
+                                <label for="location">Enter your location</label>
+                                <input type="text" id="location">
+                            </div>
+                        </div>
+                        <div>
+                            <button id="customizeOrder">Check Out / Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beginning of footer -->
+        <div class="pageFooter">
+            <p>Copyright &#169 2021, ||<span>Moringa Eats</span>|| designed by Keith James</p>
+        </div>
+        <!-- End of Footer -->
+
+    </div>
+
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
 </body>
