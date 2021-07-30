@@ -99,3 +99,48 @@ div.herotext {
 }
 .center {
     margin: 0px 200px;
+}
+
+ /* PIZZA SIZES CONTAINER */
+.pizzaSizesContainer {
+     width: 80%;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: 300px;
+     text-align: center;
+     border-radius: 4px;
+     display: flex;
+ }
+ p.card-text{
+     color: #000000;
+ }
+ div#one.card {
+     margin-right: 20px;
+ }
+ div#two.card {
+     margin-right: 20px;
+ }
+
+ /* CUSTOMIZED ORDERS */
+ .customizedOrders {
+     background-image: url('/images/me2.0.jpg');
+     height: auto;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ .ordersContainer {
+    width: 80%;
+    background-color: rgb(20, 20, 20, 0.5);
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    
+
+ }
+ 
