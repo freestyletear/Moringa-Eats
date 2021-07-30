@@ -60,3 +60,42 @@ body {
     font-size: 14px;
     color: #000000;
 }
+/* GENERAL CONTAINER */
+.generalContainer {
+    background-color: #ffffff;
+}
+
+/* MAIN CONTAINER */
+.mainContainer {
+    /* background-image: url('./images/me4.jpg'); */
+    background-image: url('/images/me1.4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: auto; */
+    height: 1200px;
+    width: 100%;
+    
+}
+
+/* CONTENT CONTAINER */
+.contentContainer {
+    width: 80%;
+    background-color: rgb(20, 20, 20, 0.5);
+    height: 900px;
+    padding-top: 18%;
+    padding-bottom: 15%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.herotext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+}
+.center {
+    margin: 0px 200px;
