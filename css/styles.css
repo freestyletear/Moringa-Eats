@@ -44,3 +44,19 @@ body {
     border: 1px solid white;
     border-radius: 50px;
 }
+
+/* Contact Us */
+.contactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUs i {
+    color: rgb(23, 95, 202);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contactUs p {
+    font-size: 14px;
+    color: #000000;
+}
