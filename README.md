@@ -1,4 +1,4 @@
-<h1 align=center >Moringa Eats</h1>
+<h1 align=center >Moringa Eats Pizza</h1>
 
 <p align=center >This is an example creation of product and service delivery strategy, 26 July 2021</p>
 
