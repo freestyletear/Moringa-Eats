@@ -24,6 +24,29 @@ A web application for my pizza place which will help widen my customer base as w
 
 ---
 
+## Behaviour Driven Development (BDD)
+---
+***
+
+1. Displays Form For Entering Name, Date and Gender.
+   - INPUT: "Type of Pizza the User needs"
+   - INPUT: "Size of Pizza the User needs"
+   - INPUT: "Type of Crust the User neds"
+   - INPUT: "Toppings the User needs"
+   - INPUT: "Number of Pizza the User needs"
+   - INPUT: "Slot for delivery to User location if need be"
+   - INPUT: "(Check-out/ Order) For submiting User input data"
+   - OUTPUT: "Displays  message informing the user that the order will be delivered at his/ her destination"
+   - OUTPUT "Displays order summary and total cost of order"
+2. Displays an Error Message if any of the INPUTS are left blank
+   - INPUT: ""
+   - OUTPUT: "Displays Error Message"
+3. Clears Form and Reset the Message on Click
+   - INPUT: "Click Reset Button"
+   - OUTPUT: "Clears and Resets the Form"
+---
+---
+
 ## Languages and Tools
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://getbootstrap.com/" target="_blank"> <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> </a> <a href="https://jquery.com/" target="_blank"> <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/35633/preview_image/jquery-js.png" alt="jquery" width="40" height="40"/> </a> </p> 
 

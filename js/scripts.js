@@ -18,8 +18,8 @@ let CustomerOrder = function (
 };
 
 // PRICING OBJECT
-CustomerOrder.prototype.kadimasPizza = {
-  name: "Kadima's Pizza",
+CustomerOrder.prototype.moringaEatsPizza = {
+  name: "Moringa East's Pizza",
 
   pizzaSizePrice: [
     { default: 0 },
@@ -80,10 +80,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -91,10 +91,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
         `;
@@ -110,11 +110,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -122,10 +122,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -141,11 +141,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -153,10 +153,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -172,10 +172,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -183,10 +183,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -202,11 +202,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -214,10 +214,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -233,11 +233,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -245,10 +245,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -264,10 +264,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -275,10 +275,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Potato, sausage and bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Potato, sausage and bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -294,11 +294,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -306,10 +306,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -325,11 +325,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[1].small +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[1].small +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -337,10 +337,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -358,10 +358,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -369,10 +369,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -388,11 +388,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -400,10 +400,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -419,11 +419,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -431,10 +431,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -450,10 +450,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -461,10 +461,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Potato, sausage and bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Potato, sausage and bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -480,11 +480,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -492,10 +492,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -511,11 +511,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -523,10 +523,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -542,10 +542,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -553,10 +553,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -572,11 +572,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -584,10 +584,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -603,11 +603,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[2].medium +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -615,10 +615,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Medium - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[2].medium} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Medium - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[2].medium} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -636,10 +636,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -647,10 +647,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -666,11 +666,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -678,10 +678,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -697,11 +697,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -709,10 +709,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -728,10 +728,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -739,10 +739,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -758,11 +758,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -770,10 +770,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -789,11 +789,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -801,10 +801,10 @@ $(document).ready(function () {
         <p>Type of Pizza: ${typeOfPizza}</p>
         <p>Delivery location: ${deliveryLocation}</p>
         <p>Number of orders: ${pizzaNumberTotal}</p>
-        <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-        <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
-        <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-        <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+        <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+        <p>Crust: Stuffed - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[2].stuffed} </p>
+        <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+        <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
         <hr>
         <p>Total: - KSh. ${totalPrice}
         `;
@@ -820,10 +820,10 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon +
-          customerOrder.kadimasPizza.deliveryPrice) *
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon +
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -831,10 +831,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -850,11 +850,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[2]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[2]
             .black_olives_anchovies_capers +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -862,10 +862,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -881,11 +881,11 @@ $(document).ready(function () {
       deliveryOption == "on"
     ) {
       let totalPrice =
-        (customerOrder.kadimasPizza.pizzaSizePrice[3].large +
-          customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free +
-          customerOrder.kadimasPizza.toppingPrice[3]
+        (customerOrder.moringaEatsPizza.pizzaSizePrice[3].large +
+          customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free +
+          customerOrder.moringaEatsPizza.toppingPrice[3]
             .mixed_sliced_mushrooms_and_garlic +
-          customerOrder.kadimasPizza.deliveryPrice) *
+          customerOrder.moringaEatsPizza.deliveryPrice) *
         pizzaNumberTotal;
 
       let orderSummary = `
@@ -893,10 +893,10 @@ $(document).ready(function () {
             <p>Type of Pizza: ${typeOfPizza}</p>
             <p>Delivery location: ${deliveryLocation}</p>
             <p>Number of orders: ${pizzaNumberTotal}</p>
-            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
-            <p>Crust: Glutten free - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free} </p>
-            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
-            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.moringaEatsPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Glutten free - KSh. ${customerOrder.moringaEatsPizza.pizzaCrustPrice[3].glutten_free} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.moringaEatsPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.moringaEatsPizza.deliveryPrice}</p>
             <hr>
             <p>Total: - KSh. ${totalPrice}
             `;
@@ -911,5 +911,3 @@ $(document).ready(function () {
     $("#locationDetails").show();
   });
 });
-
-
