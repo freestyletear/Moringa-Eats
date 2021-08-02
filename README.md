@@ -38,12 +38,12 @@ A web application for my pizza place which will help widen my customer base as w
    - INPUT: "(Check-out/ Order) For submiting User input data"
    - OUTPUT: "Displays  message informing the user that the order will be delivered at his/ her destination"
    - OUTPUT "Displays order summary and total cost of order"
-2. Displays an Error Message if any of the INPUTS are left blank
+<!-- 2. Displays an Error Message if any of the INPUTS are left blank
    - INPUT: ""
    - OUTPUT: "Displays Error Message"
 3. Clears Form and Reset the Message on Click
    - INPUT: "Click Reset Button"
-   - OUTPUT: "Clears and Resets the Form"
+   - OUTPUT: "Clears and Resets the Form" -->
 ---
 ---
 
