@@ -1,13 +1,21 @@
-* {
-    margin: 0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Andada+Pro:ital@1&family=Griffy&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: "poppins";
     color: white;
-    box-sizing: border-box;
+    background-color: #fff;
 }
 
 /* TOP NAV */
@@ -60,45 +68,26 @@ body {
     font-size: 14px;
     color: #000000;
 }
-/* GENERAL CONTAINER */
-.generalContainer {
-    background-color: #ffffff;
-}
 
-/* MAIN CONTAINER */
-.mainContainer {
-    /* background-image: url('./images/me4.jpg'); */
-    background-image: url('./images/me1.4.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* height: auto; */
-    height: 1200px;
-    width: 100%;
-    
-}
-
-/* CONTENT CONTAINER */
-.contentContainer {
-    width: 80%;
+/* Jumbotron Section */
+#jumbotron .card-img-overlay {
     background-color: rgb(20, 20, 20, 0.5);
+    width: 80%;
     height: 900px;
-    padding-top: 18%;
-    padding-bottom: 15%;
     margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
-div.herotext {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 50%; 
+#jumbotron .card-img-overlay h1.card-title {
+    font-family: 'Almendra Display', cursive;
+    font-size: 100px;
+    font-weight: bolder;
 }
-.center {
-    margin: 0px 200px;
+#jumbotron .card-img-overlay h2.card-text {
+    font-family: 'Griffy', cursive;
+    font-size: 50px;
+}
+#jumbotron .card-img-overlay p {
+    font-family: 'Andada Pro', serif;
+    font-size: 25px;
 }
 
  /* PIZZA SIZES CONTAINER */
@@ -111,8 +100,9 @@ div.herotext {
      border-radius: 4px;
      display: flex;
  }
- p.card-text{
+ .pizzaSizesContainer p.card-text{
      color: #000000;
+     font-family: 'Poppins', sans-serif;
  }
  div#one.card {
      margin-right: 20px;
