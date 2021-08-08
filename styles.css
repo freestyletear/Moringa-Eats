@@ -68,7 +68,7 @@ body {
 /* MAIN CONTAINER */
 .mainContainer {
     /* background-image: url('./images/me4.jpg'); */
-    background-image: url('/images/me1.4.jpg');
+    background-image: url('./images/me1.4.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ div.herotext {
 
  /* CUSTOMIZED ORDERS */
  .customizedOrders {
-     background-image: url('/images/me2.0.jpg');
+     background-image: url('./images/me2.0.jpg');
      height: auto;
      background-size: cover;
      background-position: center;
